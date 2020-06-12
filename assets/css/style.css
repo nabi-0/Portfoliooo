@@ -1,30 +1,120 @@
 body {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    background-color: rgb(241, 206, 206);
+    background-color: rgb(255, 244, 225);
+    margin: 0px;
+    padding: 0px;
 }
-.contact-title {
-    margin-top: 100px;
-    color: #ffffff
-    text-transform: uppercase;
-    transition:
+ul {
+    list-style: none;
 }
-form {
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
+a {
+    text-decoration: none;
 }
-.form-control {
-    width: 600px;
-    background: transparent;
-    border-bottom: 1px gray;
-    color: #ffffff
-    font-size: 18px;
-    margin-bottom: 16 px;
+section {
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    /*background-image: url("/Users/valerie/Documents/UTSABCC/Homework/Portfolio/assets/images/naisa_clouds.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-input {
-    hight: 45px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(97, 7, 7, 0.692);
+    padding: 0px 5%;
 }
-form .submit {
-    
+nav ul {
+    display: flex;
+}
+nav ul li a { 
+    margin: 30px;
+    font-family: 'Lucida Sans Unicode';
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo {
+    font-family: 'Lucida Sans Unicode';
+    color: black;
+    font-size: 22px;
+}
+.active {
+    font-weight: bold;
+    color: teal;
+}
+.text-container p:nth-child(1) {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+.text-container p:nth-child(2) {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 60px;
+}
+.text-container p:nth-child(3) {
+    font-family: 'Lucida Sans Unicode';
+    color: black;
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+.text-container button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: #8b1414;
+    margin: 0px 10px;
+}
+.resume-btn {
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    align-items: center;
+}
+.resume-btn:hover {
+    border-color: white;
+}
+button:active {
+    transform: scale(1.1);
+}
+.code-icon {
+    height: 560px;
+    position: absolute; /*or fixed*/
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-70%);
+}
+.about-me-container {
+    width: 80%;
+    height: 330px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(97, 7, 7, 0.692);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+}
+.portfolio_img {
+    max-width: 13%;
+    max-height: 50%;
+
 }
