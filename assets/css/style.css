@@ -23,7 +23,7 @@ nav {
     align-items: center;
     height: 60px;
     background-color: white;
-    box-shadow: 2px 2px 12px rgba(97, 7, 7, 0.692);
+    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.781);
     padding: 0px 5%;
 }
 nav ul {
@@ -108,13 +108,50 @@ button:active {
     height: 330px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(97, 7, 7, 0.692);
+    box-shadow: 2px 2px 12px rgba(146, 0, 114, 0.815);
     display: flex;
     margin: -7% auto 20px auto;
     position: relative;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.portfolio_img {
-    max-width: 13%;
-    max-height: 50%;
-
+.about-me-container img {
+    height: 250px;
+}
+.about-me-text {
+    width: 550px;
+}
+.about-me-text p:nth-child(1) {
+    color: black;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.about-me-text p:nth-child(2) {
+    color: black;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 13px;
+}
+.about-me-text p:nth-child(3) {
+    color: black;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 16px;
+}
+.about-me-text p:nth-child(4) {
+    color: black;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 16px;
+}
+.about-me-btn {
+    width: 120px;
+    height: 40px;
+    color: whitesmoke;
+    border: none;
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 10px;
 }
